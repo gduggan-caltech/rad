@@ -11,9 +11,9 @@ archive_meta: Science WFI Level 4 Spec 1D Combined
 type: object
 allOf:
   - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/ssc_basic-1.0.0
-  - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/GDPS/keywords/observation-1.0.0
+  - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/GDPS/keywords/observation-combined-1.0.0
   - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/GDPS/keywords/instrument-1.0.0
   - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/GDPS/keywords/calibration-1.0.0
   - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/GDPS/keywords/wavelength-1.0.0
   - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/GDPS/keywords/pointing-1.0.0
-  - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/GDPS/keywords/g2dp_common-1.0.0
+  - $ref: asdf://stsci.edu/datamodels/roman/schemas/SSC/GDPS/keywords/1d-combined-1.0.0
