@@ -7,13 +7,6 @@ title: GDPS location_table keywords
 extName: SSC
 type: object
 properties:
-  dither:
-    title: Dither
-    description: Dither position id.  Example value '1'
-    type: number
-    archive_catalog:
-      datatype: float
-      destination: [WFISpec.dither]
   num_src:
     title: Nsrc
     description: The number of sources in the Spectra Location Table file.  Example value '500'
@@ -36,4 +29,4 @@ properties:
     archive_catalog:
       datatype: float
       destination: [WFISpec.v3yangle]
-required: [dither, num_src, optical_model, v3yangle]
+required: [num_src, optical_model, v3yangle]
